@@ -12,7 +12,7 @@ class Cell:
     def set_model(self, model):
         self.model = model
 
-    def set_retail_price(self, retail_price):
+    def set_retail_price(slef, retail_price):
         self.retail_price = retail_price
     def get_manufact(self):
         return self.manufact
