@@ -53,7 +53,7 @@ class User(object):
         print("user1 cart0 have: %s" % user1.GetCart(0).ShowCart())
 
         user1.AddCart()
-        uses1.BuyItem(item1, 5, 1)
+        user1.BuyItem(item1, 5, 1)
         print("user1 cart1 have: %s" % user1.GetCart(1).ShowCart())
         
     
